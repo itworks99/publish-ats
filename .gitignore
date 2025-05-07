@@ -479,3 +479,8 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 
+# Misc local files
+!README.MD
+*.md
+*.doc
+*.docx
