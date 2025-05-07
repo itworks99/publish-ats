@@ -1,6 +1,6 @@
 ﻿# publish-ats
 
-A little tool that I wrote for myself to parse my CV and convert it to ATS-friendly formats. It uses local NLP model from Microsoft ML library to enhance the CV content and make it more compatible with Applicant Tracking Systems (ATS).
+A little tool that I wrote for myself to parse my CV and convert it to ATS-friendly format. It uses local NLP model from Microsoft ML library to enhance the CV content and make it more compatible with Applicant Tracking Systems (ATS).
 
 ## Features
 
@@ -18,14 +18,14 @@ A little tool that I wrote for myself to parse my CV and convert it to ATS-frien
     ```bash
     publish-ats -i cv.docx -f md -a
     ```
-    - Convert a Markdown CV to PDF and DOCX formats with ATS optimization:
+- Convert a Markdown CV to PDF and DOCX formats with ATS optimization:
    ```bash
-    publish-ats -i cv.md -f pdf,docx -a
-    ```
-    - Convert a Word document to PDF and Markdown with a custom output filename:
+  publish-ats -i cv.md -f pdf,docx -a
+  ```
+- Convert a Word document to PDF and Markdown with a custom output filename:
   ```bash
-    publish-ats -i resume.docx -o optimized_resume -f pdf,md
-    ```
+  publish-ats -i resume.docx -o optimized_resume -f pdf,md
+  ```
 
 ## CLI Options
 
