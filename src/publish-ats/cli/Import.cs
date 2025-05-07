@@ -28,6 +28,6 @@ internal static class Import
             Console.WriteLine("Warning: The file is neither Markdown nor Word format.");
 
         // Convert Word documents to Markdown; otherwise, read the file content as text.
-        return isWord ? cli.Convert.ToMarkdown(inputFilePath) : File.ReadAllText(inputFilePath);
+        return isWord ? Convert.ToMarkdown(inputFilePath) : File.ReadAllText(inputFilePath);
     }
 }
