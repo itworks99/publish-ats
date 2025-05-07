@@ -1,12 +1,12 @@
 ﻿namespace publish_ats.cli;
 
 /// <summary>
-/// Provides methods for exporting files in various formats and preparing file paths.
+///     Provides methods for exporting files in various formats and preparing file paths.
 /// </summary>
 internal static class Export
 {
     /// <summary>
-    /// Exports files in the specified formats based on the provided options.
+    ///     Exports files in the specified formats based on the provided options.
     /// </summary>
     /// <param name="options">The command-line options containing input, output, and format details.</param>
     /// <param name="markdown">The Markdown content to be exported.</param>
@@ -40,7 +40,7 @@ internal static class Export
     }
 
     /// <summary>
-    /// Prepares the output file path based on the input path, format, and optional custom output path.
+    ///     Prepares the output file path based on the input path, format, and optional custom output path.
     /// </summary>
     /// <param name="inputPath">The input file path.</param>
     /// <param name="format">The desired output format (e.g., pdf, docx, md).</param>
@@ -62,7 +62,7 @@ internal static class Export
     }
 
     /// <summary>
-    /// Saves the provided Markdown content to the specified file path.
+    ///     Saves the provided Markdown content to the specified file path.
     /// </summary>
     /// <param name="path">The file path where the Markdown content will be saved.</param>
     /// <param name="content">The Markdown content to save.</param>
@@ -73,7 +73,7 @@ internal static class Export
     }
 
     /// <summary>
-    /// Prepares a file path for an ATS-optimized Markdown file based on the input file path.
+    ///     Prepares a file path for an ATS-optimized Markdown file based on the input file path.
     /// </summary>
     /// <param name="inputFilePath">The input file path.</param>
     /// <returns>The prepared file path for the ATS-optimized Markdown file.</returns>

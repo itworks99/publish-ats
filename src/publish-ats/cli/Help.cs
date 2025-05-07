@@ -1,12 +1,12 @@
 ﻿namespace publish_ats.cli;
 
 /// <summary>
-/// Provides a static method to display help information for the Publish-ATS CLI tool.
+///     Provides a static method to display help information for the Publish-ATS CLI tool.
 /// </summary>
 internal static class Help
 {
     /// <summary>
-    /// Prints the help message to the console, including usage instructions, options, and examples.
+    ///     Prints the help message to the console, including usage instructions, options, and examples.
     /// </summary>
     internal static void PrintToConsole()
     {

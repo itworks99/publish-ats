@@ -1,7 +1,7 @@
 ﻿namespace publish_ats.cli;
 
 /// <summary>
-/// A static class to process and parse command-line input arguments for the publish-ats CLI tool.
+///     A static class to process and parse command-line input arguments for the publish-ats CLI tool.
 /// </summary>
 internal static class ProcessCliInput
 {
@@ -9,10 +9,10 @@ internal static class ProcessCliInput
     private static readonly string[] SupportedFormats = { "pdf", "docx", "doc", "md" };
 
     /// <summary>
-    /// Parses the command-line arguments and returns a populated <see cref="CommandLineOptions"/> object.
+    ///     Parses the command-line arguments and returns a populated <see cref="CommandLineOptions" /> object.
     /// </summary>
     /// <param name="args">The array of command-line arguments.</param>
-    /// <returns>A <see cref="CommandLineOptions"/> object containing the parsed options.</returns>
+    /// <returns>A <see cref="CommandLineOptions" /> object containing the parsed options.</returns>
     internal static CommandLineOptions Parse(string[] args)
     {
         var options = new CommandLineOptions();

@@ -7,15 +7,15 @@ using Console = System.Console;
 namespace publish_ats;
 
 /// <summary>
-/// The main entry point for the application.
-/// Handles command-line input, validates options, processes the input file, 
-/// and exports the content in the specified formats.
+///     The main entry point for the application.
+///     Handles command-line input, validates options, processes the input file,
+///     and exports the content in the specified formats.
 /// </summary>
 [UsedImplicitly]
 internal class Program
 {
     /// <summary>
-    /// The main method that executes the program logic.
+    ///     The main method that executes the program logic.
     /// </summary>
     /// <param name="args">Command-line arguments passed to the application.</param>
     private static void Main(string[] args)
